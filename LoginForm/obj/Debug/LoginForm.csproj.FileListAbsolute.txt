@@ -3,7 +3,6 @@ C:\Users\Administrator\source\repos\LoginForm\LoginForm\bin\Debug\LoginForm.exe
 C:\Users\Administrator\source\repos\LoginForm\LoginForm\bin\Debug\LoginForm.pdb
 C:\Users\Administrator\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.AssemblyReference.cache
 C:\Users\Administrator\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.SuggestedBindingRedirects.cache
-C:\Users\Administrator\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.ErrorForm.resources
 C:\Users\Administrator\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.Form1.resources
 C:\Users\Administrator\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.Form2.resources
 C:\Users\Administrator\source\repos\LoginForm\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources

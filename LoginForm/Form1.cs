@@ -20,9 +20,10 @@ namespace LoginForm
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source =Database2.accdb");
         OleDbCommand cmd;
         OleDbDataReader rdr;
+       
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -45,7 +46,24 @@ namespace LoginForm
             cmd.Connection = con;
             cmd.CommandText = "SELECT *FROM Login WHERE Username='"+name+"'AND Password='"+password+"'";
             rdr = cmd.ExecuteReader();
-          
+
+            if (txtUsername.Text == "" || txtPassword.Text == "")
+            {
+                MessageBox.Show("ID or Password should be filled.");
+            }
+            else if (txtUsername.Text == "admin" && txtPassword.Text == "admin" || txtUsername.Text == "user" && txtPassword.Text == "user")
+            {
+                Form2 form = new Form2();
+                form.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Wrond ID or Password!");
+            }
+
         }
+      
     }
 }
