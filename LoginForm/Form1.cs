@@ -32,7 +32,7 @@ namespace LoginForm
             if (!System.Text.RegularExpressions.Regex.IsMatch(txtUsername.Text, "^[a-zA-Z ]"))
             {
                 MessageBox.Show("This textbox accepts only alphabetical characters");
-                txtUsername.Text.Remove(txtUsername.Text.Length - 1);
+                txtUsername.Text.Remove(txtUsername.Text.Length - 1); 
             }
 
             List<string> allvalues = this.Controls.OfType<TextBox>().Select(x => x.Text).ToList();
